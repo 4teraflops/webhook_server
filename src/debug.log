@@ -1,0 +1,200 @@
+2020-10-02T14:53:59.780978+0500 DEBUG data: b"'{key:1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S,state:1}'"
+2020-10-02T14:55:40.515954+0500 DEBUG data: <class 'bytes'>
+2020-10-02T15:06:23.286157+0500 DEBUG datatype: <class 'bytes'>
+2020-10-02T15:09:45.217234+0500 DEBUG datatype: b'{key:1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S,state:1}'
+2020-10-02T15:21:03.201309+0500 DEBUG request: <Request 'http://localhost:5000/finmonstate' [POST]>
+2020-10-02T15:21:41.750840+0500 DEBUG request: <Request 'http://localhost:5000/finmonstate' [POST]>
+2020-10-02T15:21:58.153924+0500 DEBUG request: b"'{key:1247496676AAFb0g4WQkCkjPo0wgQNarE8S,state:1}'"
+2020-10-02T15:27:32.253204+0500 DEBUG request: b"'{key:1247496676AAFb0g4WQkCkjPo0wgQNarE8S,state:1}'"
+2020-10-02T15:35:23.324403+0500 DEBUG request: b''
+2020-10-02T15:35:23.325402+0500 DEBUG datatype: <class 'NoneType'>
+2020-10-02T15:36:17.024480+0500 DEBUG request: b''
+2020-10-02T15:36:17.024480+0500 DEBUG datatype: <class 'NoneType'>
+2020-10-02T15:37:11.526448+0500 DEBUG request: b''
+2020-10-02T15:37:11.526448+0500 DEBUG datatype: <class 'bytes'>
+2020-10-02T15:39:17.095131+0500 DEBUG request: b''
+2020-10-02T15:39:17.096130+0500 DEBUG key: 1247496676AAFb0g4WQkCkjPo0wgQNarE8S
+2020-10-02T15:44:06.308453+0500 DEBUG state: 1
+2020-10-02T15:58:02.034760+0500 DEBUG state: 1
+2020-10-02T16:01:58.822265+0500 DEBUG data: {'key': '1247496676AAFb0g4WQkCkjPo0wgQNarE8S', 'state': '1'}
+2020-10-02T16:02:21.798047+0500 DEBUG data: {'key': '1247496676AAFb0g4WQkCkjPo0wgQNarE8S', 'state': '1'}
+2020-10-02T16:02:43.762221+0500 DEBUG data: {'key': '1247496676AAFb0g4WQkCkjPo0wgQNarE8S', 'state': '1'}
+2020-10-02T16:04:07.078394+0500 DEBUG data: {'key': '1247496676AAFb0g4WQkCkjPo0wgQNarE8S', 'state': '1'}
+2020-10-02T16:04:18.413731+0500 DEBUG data: b'{"key":"1247496676AAFb0g4WQkCkjPo0wgQNarE8S", "state":"1"}'
+2020-10-02T16:05:26.529154+0500 DEBUG data: b'{"key":"1247496676AAFb0g4WQkCkjPo0wgQNarE8S", "state":"1"}'
+2020-10-02T16:05:34.075224+0500 DEBUG data: {'key': '1247496676AAFb0g4WQkCkjPo0wgQNarE8S', 'state': '1'}
+2020-10-02T16:05:57.330150+0500 DEBUG data: {'key': '1247496676AAFb0g4WQkCkjPo0wgQNarE8S', 'state': '1'}
+2020-10-02T16:06:39.680855+0500 DEBUG data: {'key': '1247496676AAFb0g4WQkCkjPo0wgQNarE8S', 'state': '1'}, key: 1247496676AAFb0g4WQkCkjPo0wgQNarE8S
+2020-10-02T16:08:24.647069+0500 DEBUG data: {'key': '1247496676AAFb0g4WQkCkjPo0wgQNarE8S', 'state': '1'}, key: 1247496676AAFb0g4WQkCkjPo0wgQNarE8S
+2020-10-02T16:09:32.753616+0500 DEBUG key: 1247496676AAFb0g4WQkCkjPo0wgQNarE8S
+2020-10-02T16:10:17.591416+0500 DEBUG key: 1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S
+2020-10-02T16:10:17.592418+0500 DEBUG data: {'key': '1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S', 'state': '1'}, key: 1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S, state: 1, time: 02-10-2020 16:10:17
+2020-10-02T16:10:48.459207+0500 DEBUG data: {'key': '1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S', 'state': '1'}
+key: 1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S
+state: 1
+time: 02-10-2020 16:10:48
+2020-10-02T16:16:26.119409+0500 DEBUG data: {'key': '1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S', 'state': '1'}
+2020-10-02T16:16:26.120407+0500 DEBUG data: {'key': '1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S', 'state': '1'}
+key: 1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S
+state: 1
+time: 02-10-2020 16:16:26
+2020-10-02T16:21:41.997886+0500 DEBUG data: {'key': '1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S', 'state': '1'}
+2020-10-02T16:21:41.998884+0500 DEBUG data: {'key': '1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S', 'state': '1'}
+key: 1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S
+state: 1
+time: 02-10-2020 16:21:41
+2020-10-02T16:25:28.317704+0500 DEBUG data: b"'{key:1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S,"
+2020-10-02T16:26:08.157046+0500 DEBUG data: {'key': '1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S', 'state': '1'}
+2020-10-02T16:26:08.158046+0500 DEBUG data: {'key': '1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S', 'state': '1'}
+key: 1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S
+state: 1
+time: 02-10-2020 16:26:08
+2020-10-02T17:01:26.614992+0500 DEBUG data: {'key': '1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S', 'state': '1'}
+2020-10-02T17:01:26.615995+0500 DEBUG data: {'key': '1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S', 'state': '1'}
+key: 1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S
+state: 1
+time: 02-10-2020 17:01:26
+2020-10-02T17:03:15.778663+0500 DEBUG data: {'key': '1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S', 'state': '1'}
+2020-10-02T17:03:15.779661+0500 DEBUG data: {'key': '1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S', 'state': '1'}
+key: 1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S
+state: 1
+time: 02-10-2020 17:03:15
+2020-10-02T17:04:11.058666+0500 DEBUG data: {'key': '1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S', 'state': '1'}
+2020-10-02T17:04:11.059664+0500 DEBUG data: {'key': '1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S', 'state': '1'}
+key: 1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S
+state: 1
+time: 02-10-2020 17:04:11
+2020-10-02T17:04:38.173241+0500 DEBUG data: {'key': '1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S', 'state': '1'}
+2020-10-02T17:04:38.174240+0500 DEBUG data: {'key': '1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S', 'state': '1'}
+key: 1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S
+state: 1
+time: 02-10-2020 17:04:38
+2020-10-02T17:04:38.176238+0500 ERROR An error has been caught in function 'finmonstate', process 'MainProcess' (12860), thread 'Thread-2' (12528):
+Traceback (most recent call last):
+
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x031BA4A8>
+    -> <Thread(Thread-2, started daemon 12528)>
+
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+    |    -> <function Thread.run at 0x031BA340>
+    -> <Thread(Thread-2, started daemon 12528)>
+
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+    |    |        |    |        |    -> {}
+    |    |        |    |        -> <Thread(Thread-2, started daemon 12528)>
+    |    |        |    -> (<socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5000), raddr=...
+    |    |        -> <Thread(Thread-2, started daemon 12528)>
+    |    -> <bound method ThreadingMixIn.process_request_thread of <werkzeug.serving.ThreadedWSGIServer object at 0x03D20B08>>
+    -> <Thread(Thread-2, started daemon 12528)>
+
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+    |    |              |        -> ('127.0.0.1', 55182)
+    |    |              -> <socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5000), raddr=(...
+    |    -> <function BaseServer.finish_request at 0x03588028>
+    -> <werkzeug.serving.ThreadedWSGIServer object at 0x03D20B08>
+
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    |    |                   |        |               -> <werkzeug.serving.ThreadedWSGIServer object at 0x03D20B08>
+    |    |                   |        -> ('127.0.0.1', 55182)
+    |    |                   -> <socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5000), raddr=(...
+    |    -> <class 'werkzeug.serving.WSGIRequestHandler'>
+    -> <werkzeug.serving.ThreadedWSGIServer object at 0x03D20B08>
+
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\socketserver.py", line 720, in __init__
+    self.handle()
+    |    -> <function WSGIRequestHandler.handle at 0x037ED2B0>
+    -> <werkzeug.serving.WSGIRequestHandler object at 0x03F75028>
+
+  File "C:\Users\User\PycharmProjects\webhook_server\venv\lib\site-packages\werkzeug\serving.py", line 345, in handle
+    BaseHTTPRequestHandler.handle(self)
+    |                      |      -> <werkzeug.serving.WSGIRequestHandler object at 0x03F75028>
+    |                      -> <function BaseHTTPRequestHandler.handle at 0x0363C8E0>
+    -> <class 'http.server.BaseHTTPRequestHandler'>
+
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\http\server.py", line 427, in handle
+    self.handle_one_request()
+    |    -> <function WSGIRequestHandler.handle_one_request at 0x037ED388>
+    -> <werkzeug.serving.WSGIRequestHandler object at 0x03F75028>
+
+  File "C:\Users\User\PycharmProjects\webhook_server\venv\lib\site-packages\werkzeug\serving.py", line 379, in handle_one_request
+    return self.run_wsgi()
+           |    -> <function WSGIRequestHandler.run_wsgi at 0x037ED268>
+           -> <werkzeug.serving.WSGIRequestHandler object at 0x03F75028>
+
+  File "C:\Users\User\PycharmProjects\webhook_server\venv\lib\site-packages\werkzeug\serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+    |       |    |      -> <werkzeug.debug.DebuggedApplication object at 0x03D04160>
+    |       |    -> <werkzeug.serving.ThreadedWSGIServer object at 0x03D20B08>
+    |       -> <werkzeug.serving.WSGIRequestHandler object at 0x03F75028>
+    -> <function WSGIRequestHandler.run_wsgi.<locals>.execute at 0x03F772B0>
+
+  File "C:\Users\User\PycharmProjects\webhook_server\venv\lib\site-packages\werkzeug\serving.py", line 314, in execute
+    for data in application_iter:
+                -> <generator object DebuggedApplication.debug_application at 0x03D224C0>
+
+  File "C:\Users\User\PycharmProjects\webhook_server\venv\lib\site-packages\werkzeug\debug\__init__.py", line 304, in debug_application
+    app_iter = self.app(environ, start_response)
+               |    |   |        -> <function WSGIRequestHandler.run_wsgi.<locals>.start_response at 0x03F77268>
+               |    |   -> {'wsgi.version': (1, 0), 'wsgi.url_scheme': 'http', 'wsgi.input': <_io.BufferedReader name=628>, 'wsgi.errors': <_io.TextIOWr...
+               |    -> <Flask 'app'>
+               -> <werkzeug.debug.DebuggedApplication object at 0x03D04160>
+
+  File "C:\Users\User\PycharmProjects\webhook_server\venv\lib\site-packages\flask\app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+           |    |        |        -> <function WSGIRequestHandler.run_wsgi.<locals>.start_response at 0x03F77268>
+           |    |        -> {'wsgi.version': (1, 0), 'wsgi.url_scheme': 'http', 'wsgi.input': <_io.BufferedReader name=628>, 'wsgi.errors': <_io.TextIOWr...
+           |    -> <function Flask.wsgi_app at 0x03B5E220>
+           -> <Flask 'app'>
+
+  File "C:\Users\User\PycharmProjects\webhook_server\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+               |    -> <function Flask.full_dispatch_request at 0x03B5CD60>
+               -> <Flask 'app'>
+
+  File "C:\Users\User\PycharmProjects\webhook_server\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+         |    -> <function Flask.dispatch_request at 0x03B5CD18>
+         -> <Flask 'app'>
+
+  File "C:\Users\User\PycharmProjects\webhook_server\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+           |    |              |    |           |   -> {}
+           |    |              |    |           -> <Request 'http://localhost:5000/finmonstate' [POST]>
+           |    |              |    -> 'finmonstate'
+           |    |              -> <Rule '/finmonstate' (OPTIONS, POST) -> finmonstate>
+           |    -> {'static': <bound method _PackageBoundObject.send_static_file of <Flask 'app'>>, 'finmonstate': <function finmonstate at 0x03...
+           -> <Flask 'app'>
+
+> File "C:\Users\User\PycharmProjects\webhook_server\app.py", line 25, in finmonstate
+    record_data(time, state)
+    |           |     -> '1'
+    |           -> '02-10-2020 17:04:38'
+    -> <function record_data at 0x03CFAF10>
+
+  File "C:\Users\User\PycharmProjects\webhook_server\app.py", line 33, in record_data
+    cursor.execute(f"INSERT INTO states VALUES (?, '{state}', '{time}')")
+    |      -> <method 'execute' of 'sqlite3.Cursor' objects>
+    -> <sqlite3.Cursor object at 0x03D3B4E0>
+
+sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 1, and there are 0 supplied.
+2020-10-02T17:05:53.149696+0500 DEBUG data: {'key': '1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S', 'state': '1'}
+2020-10-02T17:05:53.150695+0500 DEBUG data: {'key': '1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S', 'state': '1'}
+key: 1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S
+state: 1
+time: 02-10-2020 17:05:53
+2020-10-02T17:06:22.745203+0500 DEBUG data: {'key': '1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S', 'state': '1'}
+2020-10-02T17:06:22.745203+0500 DEBUG data: {'key': '1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S', 'state': '1'}
+key: 1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S
+state: 1
+time: 02-10-2020 17:06:22
+2020-10-02T17:07:00.119946+0500 DEBUG data: {'key': '1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S', 'state': '1'}
+2020-10-02T17:07:00.120945+0500 DEBUG data: {'key': '1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S', 'state': '1'}
+key: 1247496676:AAFb0g4WQkCkjP-o0wgQNarE8S
+state: 1
+time: 02-10-2020 17:07:00
