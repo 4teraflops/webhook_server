@@ -20,18 +20,22 @@ def finmonstate():
 
         if key == config.key:
             state = data['state']
+            try:
+                count = data['count']
+            except KeyError:
+                count = ''
             now = datetime.now()
             time = now.strftime('%d-%m-%Y %H:%M:%S')
-            logger.debug(f'data: {data}\nkey: {key}\nstate: {state}\ntime: {time}')
-            record_data(time, state)
+            #logger.debug(f'data: {data}\nkey: {key}\nstate: {state}\ntime: {time}')
+            record_data(time, state, count)
             return 'Data Recorded'
 
 
 @logger.catch
-def record_data(time, state):
+def record_data(time, state, count):
     conn = sqlite3.connect('src/db.sqlite')
     cursor = conn.cursor()
-    cursor.execute(f"INSERT INTO states VALUES (Null, '{state}', '{time}')")
+    cursor.execute(f"INSERT INTO states VALUES (Null, '{state}', '{time}', '{count}')")
     conn.commit()
 
 
@@ -45,6 +49,6 @@ if __name__ == '__main__':
     try:
         app.run(host='0.0.0.0', port=5000, debug=False)
     except Exception as e:
-        t_alarmtext = f'webhook server (app.py): {str(e)}'
+        t_alarmtext = f'Webhook server (app.py): {str(e)}'
         do_alarm(t_alarmtext)
         logger.error(f'Other except error Exception', exc_info=True)
