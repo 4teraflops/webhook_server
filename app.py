@@ -8,7 +8,7 @@ import requests
 import json
 
 app = Flask(__name__)
-logger.add('src/debug.log', format='{time} {level} {message}', level='DEBUG', rotation='10 MB', compression='zip')
+logger.add(f'src/{__name__}.log', format='{time} {level} {message}', level='DEBUG', rotation='10 MB', compression='zip')
 
 
 @logger.catch  # Логировать исключения из функции
@@ -35,7 +35,7 @@ def finmonstate():
 def record_data(time, state, count):
     conn = sqlite3.connect('src/db.sqlite')
     cursor = conn.cursor()
-    cursor.execute(f"INSERT INTO states VALUES (Null, '{state}', '{time}', '{count}')")
+    cursor.execute(f"INSERT INTO finmon_states VALUES (Null, '{state}', '{time}', '{count}')")
     conn.commit()
 
 
